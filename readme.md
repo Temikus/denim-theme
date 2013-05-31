@@ -4,7 +4,7 @@ This is an Octopress theme used on my personal blog.
 
 ## License
 
-This theme is based on the "dark-stripes" Octopress theme by Alessandro Melandri.
+Some elements of this theme are based on the "dark-stripes" Octopress theme by Alessandro Melandri.
 
 (The MIT License)
 
