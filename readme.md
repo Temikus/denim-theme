@@ -1,4 +1,4 @@
-# Stripes Octopress theme
+# Denim Octopress theme
 
 This is an Octopress theme used on my personal blog.
 
