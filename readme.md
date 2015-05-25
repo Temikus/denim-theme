@@ -1,19 +1,12 @@
 # Denim Octopress theme
 
 This is an Octopress theme used on my personal blog.
-
-## License
-
 Some elements of this theme are based on the "dark-stripes" Octopress theme by Alessandro Melandri.
 
-(The MIT License)
+## Installation instructions
 
-Copyright © 2013 Artem Yakimenko
-Copyright © 2012 Alessandro Melandri
-Copyright © 2009-2011 Brandon Mathis
+Change into the directory where your octopress installation resides and add it as a submodule:
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the ‘Software’), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED ‘AS IS’, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+  $ git submodule add git://github.com/temikus/denim-theme.git .themes/denim
+  $ rake install\['denim'\]
+  $ rake generate
